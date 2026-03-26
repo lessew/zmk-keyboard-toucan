@@ -294,7 +294,6 @@ ctrl_alt_j: ctrl_alt_j {
    &kp RET     &kp EQUAL   &kp N1 &kp N2 &kp N3 &kp LEFT_BRACKET &kp RIGHT_BRACKET &none  &none  &none    &none &ctrl_alt_m
                                 &kp N0    &ctrl_alt_n       &trans      &ctrl_alt_n  &trans   &trans
                         >;
-                };
         };
 
         sym {
