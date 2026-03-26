@@ -10,6 +10,31 @@
 #define MOUSE   4
 
 / {
+    combos {
+        compatible = "zmk,combos";
+         homerowmod_1_ad {
+            timeout-ms = <50>;
+            key-positions = <13 15>;
+            bindings = <&mo PERIPHERALS>;
+        };
+        homerowmod_2_sf {
+            timeout-ms = <50>;
+            key-positions = <14 16>;
+            bindings = <&kp LGUI>;
+        };
+        homerowmod_1_hk {
+            timeout-ms = <50>;
+            key-positions = <18 20>;
+            bindings = <&mo PERIPHERALS>;
+        };
+        homerowmod_2_jl{
+            timeout-ms = <50>;
+            key-positions = <19 21>;
+            bindings = <&kp RGUI>;
+        };
+    }
+}
+/ {
     macros {
         zed_em_kay: zed_em_kay {
             compatible = "zmk,behavior-macro";
