@@ -305,7 +305,7 @@ ctrl_alt_j: ctrl_alt_j {
         };
 
         nav {
-            display-name = "Excel_Apps";
+            display-name = "Num&Apps";
               bindings = <
  &kp PLUS    &kp ASTRK &kp N7 &kp N8 &kp N9 &kp LPAR  &kp RPAR  &ctrl_alt_c  &ctrl_alt_d &ctrl_alt_f    &ctrl_alt_i &ctrl_alt_j
    &kp MINUS   &kp FSLH  &kp N4 &kp N5 &kp N6 &kp LEFT_BRACE  &kp RIGHT_BRACE  &none &none &ctrl_alt_k &ctrl_alt_p   &ctrl_alt_b
@@ -315,7 +315,7 @@ ctrl_alt_j: ctrl_alt_j {
         };
 
         sym {
-            display-name = "Specialchars_Windowmanager";
+            display-name = "Chars&Win";
               bindings = <
    &kp GRAVE  &none &kp AMPERSAND &kp ASTRK &none &none   &ctrl_alt_1 &ctrl_alt_2  &ctrl_alt_3 &ctrl_alt_4 &ctrl_alt_5 &ctrl_alt_6
    &none &none       &kp DOLLAR       &kp PERCENT       &kp CARET      &none         &kp LEFT &kp DOWN &kp UP  &kp RIGHT &none &none
@@ -325,7 +325,7 @@ ctrl_alt_j: ctrl_alt_j {
         };
 
         adj {
-            display-name = "Peripherals";
+            display-name = "BT";
              bindings = <
    &kp C_BRIGHTNESS_INC  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none &none  &none &none &none &kp K_VOL_UP
    &kp C_BRIGHTNESS_DEC  &bt BT_CLR       &none       &none       &none       &none         &none  &none &none &none &none &kp K_VOL_DN
