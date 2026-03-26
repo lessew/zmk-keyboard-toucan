@@ -9,6 +9,261 @@
 #define ADJ  3
 
 / {
+    macros {
+        zed_em_kay: zed_em_kay {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp Z &kp M &kp K>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+        gui_min: gui_min {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RGUI>
+                , <&macro_tap &kp MINUS>
+                , <&macro_release &kp RGUI>
+                ;
+            };
+        gui_plus: gui_plus {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RGUI>
+                , <&macro_tap &kp EQUAL>
+                , <&macro_release &kp RGUI>
+                ;
+            };
+        ctrl_min: ctrl_min {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RCTRL>
+                , <&macro_tap &kp MINUS>
+                , <&macro_release &kp RCTRL>
+                ;
+            };
+        ctrl_plus: ctrl_plus {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp RCTRL>
+                , <&macro_tap &kp PLUS>
+                , <&macro_release &kp RCTRL>
+                ;
+            };
+        ctrl_alt_del: ctrl_alt_del {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp DEL>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_b: ctrl_alt_b {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp B>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_c: ctrl_alt_c {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp C>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_d: ctrl_alt_d {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp D>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_f: ctrl_alt_f {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp F>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_i: ctrl_alt_i {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp I>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+ctrl_alt_j: ctrl_alt_j {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp J>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_k: ctrl_alt_k {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp K>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+         ctrl_alt_n: ctrl_alt_n {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp N>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_m: ctrl_alt_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp M>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_p: ctrl_alt_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp P>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_1: ctrl_alt_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp N1>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        ctrl_alt_2: ctrl_alt_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp N2>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+         ctrl_alt_3: ctrl_alt_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp N3>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+ ctrl_alt_4: ctrl_alt_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp N4>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+ ctrl_alt_5: ctrl_alt_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp N5>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+ ctrl_alt_6: ctrl_alt_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_press &kp LALT>
+                , <&macro_tap &kp N6>
+                , <&macro_release &kp LCTRL>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+    };
+};
+
+
+/ {
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
